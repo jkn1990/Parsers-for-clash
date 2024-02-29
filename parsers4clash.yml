@@ -410,7 +410,7 @@ parsers: # array
         netflix: # 奈飞的分流规则
           type: http
           behavior: classical
-          url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Netflix/Netflix.yaml"
+          url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml"
           path: ./ruleset/netflix.yaml
           interval: 86400
 
